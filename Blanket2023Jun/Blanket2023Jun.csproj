@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F4BAFA1-A78F-4B5F-9A2F-B825B9DE6BEC}</ProjectGuid>
+    <ProjectGuid>{9417F7F4-71E4-49E3-B9F3-D950B5A4E0E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Blanket2023Oktobar2</RootNamespace>
-    <AssemblyName>Blanket2023Oktobar2</AssemblyName>
+    <RootNamespace>Blanket2023Jun</RootNamespace>
+    <AssemblyName>Blanket2023Jun</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Klasa.cs" />
-    <Compile Include="Krug.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Valjak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
